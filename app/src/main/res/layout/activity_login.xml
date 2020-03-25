@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    tools:ignore="MissingDefaultResource">
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/logo"
+                android:background="@drawable/logo"
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="120dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Khere are you?"
+                android:textColor="@android:color/background_dark"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="K-PoP+where are you?"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+
+            <EditText
+                android:id="@+id/et_id"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@android:color/background_light"
+                android:hint="아이디"
+                android:padding="10dp"
+                android:textColor="@android:color/background_dark"
+                android:textColorHint="@android:color/background_dark" />
+
+
+            <EditText
+                android:id="@+id/et_pass"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/background_light"
+                android:hint="비밀번호"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="@android:color/background_dark"
+                android:textColorHint="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:text="로그인"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#5A3030"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:text="회원가입"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+
+
+
+
+
